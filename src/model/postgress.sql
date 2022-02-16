@@ -14,6 +14,7 @@ CREATE TABLE aplications (
     post_date DATE DEFAULT CURRENT_DATE
 );
 
+
 CREATE TABLE posts (
     post_id uuid DEFAULT uuid_generate_v4() NOT NULL PRIMARY KEY,
     post_title text NOT NULL,
