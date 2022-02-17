@@ -1,5 +1,6 @@
 const { verify } = require("../utils/jwt");
 
+
 module.exports = {
     AUTH_SUPER_ADMIN: (req, res, next) => {
         try {
